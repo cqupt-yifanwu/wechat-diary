@@ -1,0 +1,20 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#399",
+    "navigationBarTitleText": "myWeChat",
+    "navigationBarTextStyle":"#fff",
+    "enablePullDownRefresh": "ture"
+  },
+
+  "networkTimeout": {
+    "reqest": 20000,
+    "onnectSocket": 20000,
+    "upoadFile": 20000,
+    "downloadFile": 20000
+  }
+}

@@ -1,0 +1,17 @@
+<!--index.wxml-->
+<view class="container">
+  <view  bindtap="bindViewTap" class="userinfo">
+    <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+    <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+  </view>
+    <view>
+      <textarea class="textCtn" value="{{msg}}" placeholder="这里编辑你的日记" bindinput="bindmsg"/>
+      <button type="primary" bindtap="finishiHandle">完成日记</button>
+    </view>
+  <view class="list">
+    <text>{{item.msg}}</text>
+  </view>
+  <view>
+  <text>一共有{{count}}篇日记</text>
+  </view>
+</view>
